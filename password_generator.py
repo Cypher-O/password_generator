@@ -5,7 +5,7 @@ import string
 
 def generate_password(min_length, numbers=True, special_characters=True):
     """Generates a random password with the specified criteria.
-
+    
     Args:
         min_length (int): Minimum length of the password.
         numbers (bool, optional): Include numbers in the password. Defaults to True.
@@ -51,7 +51,6 @@ def get_valid_int(prompt="Enter a number: "):
         except ValueError:
             print("Invalid input. Please enter a valid number.\n")
 
-
 def get_yes_no_answer(prompt="Enter (y/n): "):
     """Gets a valid yes or no answer (case-insensitive) from the user.
 
@@ -69,7 +68,6 @@ def get_yes_no_answer(prompt="Enter (y/n): "):
             return False
         else:
             print("Please enter 'y' or 'n'.")
-
 
 if __name__ == "__main__":
     # Get valid minimum length from the user
